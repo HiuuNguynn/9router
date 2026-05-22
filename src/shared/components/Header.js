@@ -104,6 +104,13 @@ const getPageInfo = (pathname) => {
       icon: "data_usage",
       breadcrumbs: [],
     };
+  if (pathname.includes("/codex-accounts"))
+    return {
+      title: "Codex Accounts",
+      description: "Switch Codex CLI accounts quickly",
+      icon: "switch_account",
+      breadcrumbs: [],
+    };
   if (pathname.includes("/mitm"))
     return {
       title: "MITM Proxy",

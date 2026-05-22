@@ -42,6 +42,7 @@ const ALWAYS_PROTECTED = [
   "/api/version/update",
   "/api/oauth/cursor/auto-import",
   "/api/oauth/kiro/auto-import",
+  "/api/codex-accounts",
 ];
 
 // Require auth, but allow through if requireLogin is disabled
@@ -54,6 +55,7 @@ const PROTECTED_API_PATHS = [
   "/api/combos",
   "/api/models",
   "/api/usage",
+  "/api/codex-accounts",
   "/api/oauth",
   "/api/cloud",
   "/api/media-providers",
@@ -80,6 +82,7 @@ const LOCAL_ONLY_PATHS = [
   "/api/tunnel/disable",
   "/api/oauth/cursor/auto-import",
   "/api/oauth/kiro/auto-import",
+  "/api/codex-accounts",
 ];
 
 const LOOPBACK_HOSTS = new Set(["localhost", "127.0.0.1", "::1"]);
